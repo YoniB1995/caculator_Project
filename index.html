@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tech Career מחשבון</h1>
+    <input type="text" id="inputLine"  oninput="resultText()"> <input type="text" name="" id="inputResult" >
+    <br>
+    <h4 id="sumResult" onclick="useOperator('+')">+</h4>
+    <h4 id="sumResult" onclick="useOperator('-')">-</h4>
+    <h4 id="sumResult" onclick="useOperator('/')">/</h4>
+    <h4 id="sumResult" onclick="useOperator('*')">*</h4>
+    
+    <br>
+    <p id="numOne" onclick="getNumClick(1)">1</p><p id="numTwo" onclick="getNumClick(2)">2</p><p id="numThree" onclick="getNumClick(3)">3</p>
+    <br>
+    <p id="numFour" onclick="getNumClick(4)">4</p><p id="numFive" onclick="getNumClick(5)">5</p><p id="numSix" onclick="getNumClick(6)">6</p>
+    <br>
+    <p id="numSeven" onclick="getNumClick(7)">7</p><p id="numEight" onclick="getNumClick(8)">8</p><p id="numNine" onclick="getNumClick(9)">9</p>
+    <br>
+    <p id="reset" onclick="useOperator('AC')">AC</p><p onclick="getNumClick(0)">0</p><p onclick="useOperator('.')">.</p>
+    
+    <div id="result" onclick="finalResult()">=</div>
+    <br>
+    <span>&copyYoni Bitew</span>
+    <script src="/script.js"></script>
+</html>
